@@ -541,7 +541,7 @@ is strictly prohibited and any attempt to do so will be prosecuted. -->
 <div id="page_body">
 <div id="navigation">
 <nav>
-	<a href="index.php"><img src="../img/in_logo.png?<?php echo filemtime('../img/in_logo.png'); ?>" id="logo" alt="logo"></a>
+	<a href="index"><img src="../img/in_logo.png?<?php echo filemtime('../img/in_logo.png'); ?>" id="logo" alt="logo"></a>
 	<ul>
 		<?php
 			echo "\n\t\t" . '<li id="economy">' .
