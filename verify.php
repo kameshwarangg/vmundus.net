@@ -89,7 +89,7 @@
 				if($url == '/index' || $url == '/' || preg_match($url_referer_regex, $url) 
 				|| preg_match($url_reset_pass_regex, $url) || $url == '/maintenance' 
 				|| preg_match($url_language, $url)) {
-					header('Location: /en/index.php');
+					header('Location: /en/index');
 					exit;
 				}
 			}
@@ -128,7 +128,7 @@
 				if($url == '/index' || $url == '/' || preg_match($url_referer_regex, $url) 
 					|| preg_match($url_reset_pass_regex, $url) || $url == '/maintenance' 
 					|| preg_match($url_language, $url)) {
-					header('Location: /en/index.php');
+					header('Location: /en/index');
 					exit;
 				}
 			}
